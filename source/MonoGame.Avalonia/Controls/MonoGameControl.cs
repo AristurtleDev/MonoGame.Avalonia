@@ -104,9 +104,7 @@ namespace MonoGame.Avalonia.Controls
         private bool _hasBeenInitialized;
         private PresentationParameters _presentationParameters;
         private bool _isPaused;
-        private List<Microsoft.Xna.Framework.Input.Keys> _keysDown;
         private HashSet<Microsoft.Xna.Framework.Input.Keys> _keysDownHash;
-        private Dictionary<Key, Microsoft.Xna.Framework.Input.Keys> _keyLookup;
 
         #endregion Fields
 
@@ -265,7 +263,6 @@ namespace MonoGame.Avalonia.Controls
             _timer = new Stopwatch();
             _gameTime = new GameTime();
             _buffer = Array.Empty<byte>();
-            _keysDown = new List<Keys>();
             _keysDownHash = new HashSet<Keys>();
 
             _presentationParameters = new PresentationParameters()
