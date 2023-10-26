@@ -606,8 +606,6 @@ namespace MonoGame.Avalonia.Controls
                 Type keyboardType = typeof(Microsoft.Xna.Framework.Input.Keyboard);
                 MethodInfo? setKeysMethod = keyboardType.GetMethod("SetKeys", BindingFlags.NonPublic | BindingFlags.Static);
                 setKeysMethod?.Invoke(null, new object[] { _keysDownHash.ToList() });
-                
-                _keysDownHash.Clear();
 
                 game.RunOneFrame();
             }
