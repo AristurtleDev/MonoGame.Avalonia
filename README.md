@@ -6,10 +6,11 @@
 3. Add `MonoGameControl` to view
 
 ```xml
-<monoGame:MonoGameControl Game="{Binding Game}"
-							BackBufferWidth="1920"
-							BackBufferHeight="1080"
-							IsPaused="False"/>
+<monoGame:MonoGameControl 
+	Game="{Binding Game}"
+	BackBufferWidth="1920"
+	BackBufferHeight="1080"
+	IsPaused="False"/>
 ```
 
 See Examples in `MonoGame.Avalonia.Example.Desktop` and `MonoGame.Avalonia.Example.Desktop.Desktop`  projects
