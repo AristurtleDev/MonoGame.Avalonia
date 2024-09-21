@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository was origianlly a proof of concept. As of September 21st 2024, this repository is now in archive mode.  [Akaadream](https://github.com/akaadream) has a fork that is being maintained and shoudl be used going forward and not this repository.  https://github.com/akaadream/MonoGame.Avalonia
+
 # MonoGame Avalonia Example
 
 ## Usage
